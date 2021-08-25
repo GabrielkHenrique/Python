@@ -1,4 +1,3 @@
-import keyboard
 #Meu primeiro programa de verdade em python não foi finalizado mas espero um dia retomar esse projeto com um conhecimento maior e fazer oq eu quero
 print('bem vindo qual será seu nome?')
 nome = input('Digite seu nome')
