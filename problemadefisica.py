@@ -6,10 +6,10 @@ tempo = float(input('Digite o tempo: '))
 resultado = (PV + (PS * tempo))
 print('A posição dele é ' ,  resultado)
 pergunta = input('Deseja continuar?')
-while (pergunta == 'sim'):
+if (pergunta == 'sim'):
         PV = float(input('Digite o primeiro valor: '))
         PS = float(input('Digite o primeiro valor: '))
         tempo = float(input('Digite o tempo: '))
         resultado = (PV + (PS * tempo))
         print('A posição dele é ', resultado)
-        break
+        pergunta = 'nao'
