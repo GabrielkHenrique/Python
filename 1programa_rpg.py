@@ -30,14 +30,7 @@ def evento2():
         print('Você foi para o norte e subiu numa montanha gelada demorou mais de uma semana lá você encontrou uma mansão e um senhor com cabelos e barbas longas e brancas te avistou!')
         print('velho:há tanto tempo não veja uma pessoa por aqui... venha entre!')
         print('Você decide entrar e conta as suas histórias até ali e descobre que aquele senhor mora ali sozinho já que sua esposa faleceu seu nome é Smith')
-        print('Sr Smith: Oh então está viajando sem rumo? nessa idade! aliás quantos anos você tem?')
-        idade = input('Minha idade é')
-        def idade1():
-            if idade <= 18:
-                print('Smith: Você é muito jovem! é perigosos sair andando assim')
-            else:
-                print('Smith: Achei que fosse mais novo perdão')
-        idade1()
+        print('Sr Smith: Oh então está viajando sem rumo? nessa idade!')
         print('Bom acho que o melhor caminho pra quem está sem caminho seria ou uma cidade grande ou uma dungeon mas não acho que você possa ir em uma dungeon com um rank tão baixo')
         print('Eu sugiro que vá para uma guilda descobrir seu rank')
         print('Muitos dias se passraram da sua viagem até a cidade grande mais proxima a cidade Lexisan')
